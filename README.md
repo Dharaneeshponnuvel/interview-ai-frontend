@@ -1,15 +1,19 @@
 # AI Interview Platform – Frontend
 
-This is the **frontend application** for the AI Interview Platform.
-It provides a user interface for candidates to attend AI-based interviews and interact with the system.
+This repository contains the **React.js frontend** for the AI Interview Platform.
+It provides the user interface where candidates interact with the AI interviewer.
+
+---
 
 ## 🚀 Features
 
-* AI-based interview interface
+* Interactive AI interview interface
 * Real-time question display
-* Audio / text answer interaction
-* Clean and responsive UI
-* API integration with backend
+* Record and submit answers
+* Clean responsive UI
+* API integration with Go backend
+
+---
 
 ## 🛠️ Tech Stack
 
@@ -17,7 +21,9 @@ It provides a user interface for candidates to attend AI-based interviews and in
 * JavaScript
 * HTML5
 * CSS3
-* Axios (API communication)
+* Axios
+
+---
 
 ## 📂 Project Structure
 
@@ -30,55 +36,63 @@ src/
  └── index.js
 ```
 
+---
+
 ## ⚙️ Installation
 
 Clone the repository
 
-```bash
+```
 git clone https://github.com/Dharaneeshponnuvel/interview-ai-frontend.git
 ```
 
-Go to project folder
+Move into the project folder
 
-```bash
+```
 cd interview-ai-frontend
 ```
 
 Install dependencies
 
-```bash
+```
 npm install
 ```
 
 Run the application
 
-```bash
+```
 npm start
 ```
 
-The app will start at:
+The frontend will run at
 
 ```
 http://localhost:3000
 ```
 
-## 🔗 Backend Repository
+---
 
-Backend API:
+## 🔗 Backend API
+
+The frontend communicates with the Go backend:
 
 https://github.com/Dharaneeshponnuvel/interview-ai-backend
 
+---
+
 ## 📌 Environment Variables
 
-Create a `.env` file
+Create a `.env` file in the root folder.
 
 ```
-REACT_APP_API_URL=http://localhost:5000
+REACT_APP_API_URL=http://localhost:8080
 ```
+
+---
 
 ## 👨‍💻 Author
 
 **Dharaneesh P**
 
-GitHub
+GitHub:
 https://github.com/Dharaneeshponnuvel
